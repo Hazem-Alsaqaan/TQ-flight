@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PoppinsBlack";
+  src: local("PoppinsBlack"), url("./assets/fonts/Poppins-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsExtraBold";
+  src: local("PoppinsExtraBold"), url("./assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"), url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"), url("./assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: local("PoppinsMedium"), url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"), url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+@theme{
+  --color-mainColor: oklch(0.685 0.169 237.323);
+  --font-PoppinsRegular: "PoppinsRegular";
+  --font-PoppinsMedium: "PoppinsMedium";
+  --font-PoppinsSemiBold: "PoppinsSemiBold";
+  --font-PoppinsBold: "PoppinsBold";
+  --font-PoppinsExtraBold: "PoppinsExtraBold";
+  --font-PoppinsBlack: "PoppinsBlack";
+
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  padding: 0px; 
+  font-family: "PoppinsRegular"; 
+}
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color:   rgb(245 245 244);
+  box-shadow: 0px 0px 3px 0px inset;
+}
+::-webkit-scrollbar-thumb{
+  background-color:    rgb(214 211 209);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px inset;
+}
+::selection{
+  background-color: oklch(0.685 0.169 237.323);
+  color: white;
+}
+.active{
+  color:oklch(0.685 0.169 237.323)
+}
