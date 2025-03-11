@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/pictures/TQFlight.png";
-import NavLinks from "./NavLinks";
+import NavLinks from "./NavLinks.jsx";
 
 function NavBar() {
   return (
