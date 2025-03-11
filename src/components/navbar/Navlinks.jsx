@@ -37,12 +37,10 @@ function NavLinks() {
           </NavLink>
         </li>
 
-        <li>
-          <div
-            className={` block bg-mainColor w-full text-white hover:bg-sky-600 duration-150 p-2 rounded-md cursor-none text-nowrap`}
-          >
-            Contact us
-          </div>
+        <li
+          className={` block bg-mainColor w-full text-white hover:bg-sky-600 duration-150 p-2 rounded-md cursor-none text-nowrap`}
+        >
+          Contact us
         </li>
       </ul>
     </nav>
